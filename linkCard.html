@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Primary Meta Tags -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#000" />
+<meta name="description" content="Connect with Herish Chaniyara - Professional Ethical Hacker and Cybersecurity Expert. Explore my professional profiles and featured Cybersecurity Simulation project demonstrating VAPT methodologies." />
+<meta name="keywords" content="Herish Chaniyara profiles, cybersecurity simulation, ethical hacking portfolio, security researcher profiles, VAPT specialist, professional hacker portfolio, security testing demonstration, penetration testing simulation, cyber attack simulation, security awareness training, cybersecurity projects, security research work, professional security profiles, ethical hacking demonstration, security consultant profile, information security specialist" />
+<meta name="author" content="Herish Chaniyara" />
+
+<!-- Open Graph Meta Tags -->
+<title>Herish Chaniyara | Professional Profiles & Cybersecurity Simulation Project</title>
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Herish Chaniyara | Professional Profiles & Security Simulation" />
+<meta property="og:description" content="Connect with Herish Chaniyara across professional platforms. Featured: Interactive Cybersecurity Simulation Project showcasing security testing methodologies." />
+<meta property="og:image" content="https://herish.netlify.app/src/png/Preview-card-min.png" />
+<meta property="og:url" content="https://herish.netlify.app/linkCard.html" />
+<meta property="og:site_name" content="Herish Chaniyara Professional Profiles" />
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Portfolio" />
+<meta name="twitter:title" content="Herish Chaniyara | Professional Networks & Security Simulation" />
+<meta name="twitter:description" content="Explore my professional profiles and cybersecurity projects. Featured: Interactive Security Simulation demonstrating VAPT scenarios." />
+<meta name="twitter:image" content="https://herish.netlify.app/src/png/Preview-card-min.png" />
+
+<!-- JSON-LD Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Herish Chaniyara",
+        "jobTitle": "Cybersecurity Expert & Ethical Hacker",
+        "description": "Professional ethical hacker and cybersecurity expert, specializing in VAPT and security assessments",
+        "url": "https://herish.netlify.app/linkCard.html",
+        "image": "https://herish.netlify.app/src/png/Preview-card-min.png",
+        "sameAs": [
+          "https://github.com/empty-hacker/",
+          "https://www.linkedin.com/in/herish09/"
+        ]
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Cybersecurity Simulation Project",
+      "author": {
+        "@type": "Person",
+        "name": "Herish Chaniyara"
+      },
+      "description": "Interactive cybersecurity simulation demonstrating security scenarios and VAPT methodologies",
+      "educationalLevel": "Professional",
+      "learningResourceType": "Simulation"
+    }
+  ]
+}
+</script>
+    <link rel="icon" type="image/jpg" href="src/png/main-favicon-herish.jpg" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff6b35;
+            --secondary: #f7c59f;
+            --gradient-start: #2c3e50;
+            --gradient-end: #1a1a1a;
+            --card-bg: rgba(28, 28, 28, 0.95);
+            --hover-color: #ff8f66;
+            --text-color: #ffffff;
+            --neon-glow: 0 0 10px rgba(255, 107, 53, 0.5),
+                         0 0 20px rgba(255, 107, 53, 0.3),
+                         0 0 30px rgba(255, 107, 53, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .background-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 1;
+            perspective: 1000px;
+            transform-style: preserve-3d;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% {
+                transform: translateZ(0) rotate(0deg);
+            }
+            100% {
+                transform: translateZ(100px) rotate(360deg);
+            }
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            gap: 20px;
+            perspective: 2000px;
+        }
+
+        .profile-section {
+            flex: 1;
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: var(--neon-glow);
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+
+        .links-section {
+            flex: 2;
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: var(--neon-glow);
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+
+        .profile-img-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            padding: 5px;
+            background: var(--card-bg);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .profile-img-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, var(--primary) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .profile-img-container:hover .profile-img-glow {
+            opacity: 0.5;
+            animation: pulseGlow 2s infinite;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+        }
+
+        .profile-name {
+            color: var(--text-color);
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 10px;
+            text-shadow: var(--neon-glow);
+        }
+
+        .profile-title {
+            color: var(--secondary);
+            font-size: 1.1em;
+            text-align: center;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-link::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: var(--primary);
+            transform: translateY(100%);
+            transition: transform 0.3s;
+            z-index: 1;
+        }
+
+        .social-link:hover::before {
+            transform: translateY(0);
+        }
+
+        .social-link i {
+            font-size: 1.5em;
+            position: relative;
+            z-index: 2;
+            transition: transform 0.3s;
+        }
+
+        .social-link:hover i {
+            transform: scale(1.2);
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .platform-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 20px;
+            text-decoration: none;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .platform-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: translateX(-100%);
+            transition: 0.5s;
+        }
+
+        .platform-card:hover::before {
+            transform: translateX(100%);
+        }
+
+        .platform-logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            border-radius: 12px;
+            transition: all 0.3s;
+            filter: drop-shadow(0 0 5px rgba(255,107,53,0.5));
+        }
+
+        .platform-name {
+            color: var(--text-color);
+            font-size: 1.1em;
+            font-weight: 500;
+            text-align: center;
+            position: relative;
+        }
+
+        .platform-name::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transform: translateX(-50%);
+            transition: width 0.3s;
+        }
+
+        .platform-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,107,53,0.2);
+            box-shadow: 0 5px 15px rgba(255,107,53,0.3);
+        }
+
+        .platform-card:hover .platform-logo {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .platform-card:hover .platform-name::after {
+            width: 100%;
+        }
+
+        .glow-effect {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle at center, var(--primary) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.1);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--hover-color);
+        }
+
+        /* Platform-specific styles */
+        .platform-card[data-platform="tryhackme"] .platform-logo { background: #ffffff; }
+        .platform-card[data-platform="hackerone"] .platform-logo { background: #494649; }
+        .platform-card[data-platform="portswigger"] .platform-logo { background: #2a2f35; }
+        .platform-card[data-platform="picoctf"] .platform-logo { background: #1a1a1a; }
+    </style>
+</head>
+<body>
+    <div class="background-grid"></div>
+    <div class="container">
+        <div class="profile-section" data-tilt data-tilt-max="5">
+            <div class="profile-img-container">
+                <img src="src/png/profile.png" alt="Profile" class="profile-img">
+                <div class="profile-img-glow"></div>
+            </div>
+            <h1 class="profile-name">Herish Chaniyara</h1>
+            <p class="profile-title">VAPT & Cyber Security Engineer</p>
+            <div class="social-links">
+                <a href="https://github.com/empty-hacker/" class="social-link" data-tilt data-tilt-scale="1.1">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/herish09/" class="social-link" data-tilt data-tilt-scale="1.1">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://herish.netlify.app/" class="social-link" data-tilt data-tilt-scale="1.1">
+                    <i class="fas fa-globe"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="links-section">
+            <div class="links-grid">
+                <a href="https://tryhackme.com/r/p/Herish" class="platform-card" data-platform="tryhackme" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                    <img src="src/png/tryhackme.png" alt="TryHackMe Logo" class="platform-logo">
+                    <span class="platform-name">TryHackMe</span>
+                </a>
+
+                <a href="https://ctf.hacker101.com/" class="platform-card" data-platform="hackerone" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                    <img src="src/png/hackerone.png" alt="HackerOne Logo" class="platform-logo">
+                    <span class="platform-name">HackerOne</span>
+                </a>
+
+                <a href="https://portswigger.net/web-security/hall-of-fame" class="platform-card" data-platform="portswigger" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                    <img src="src/png/portswigger.png" alt="PortSwigger Logo" class="platform-logo">
+                    <span class="platform-name">PortSwigger</span>
+                </a>
+
+                <a href="https://play.picoctf.org/users/Herish" class="platform-card" data-platform="picoctf" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                    <img src="src/png/picoctf.jpeg" alt="picoCTF Logo" class="platform-logo">
+                    <span class="platform-name">picoCTF</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="glow-effect"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script>
+        // Initialize tilt effect
+        VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+            max: 10,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+            scale: 1.02
+        });
+
+        // Mouse follow glow effect
+        const glowEffect = document.querySelector('.glow-effect');
+        document.addEventListener('mousemove', (e) => {
+            glowEffect.style.left = e.clientX - 50 + 'px';
+            glowEffect.style.top = e.clientY - 50 + 'px';
+            glowEffect.style.opacity = '0.15';
+        });
+
+        document.addEventListener('mouseleave', () => {
+            glowEffect.style.opacity = '0';
+        });
+
+        // Platform cards hover effect
+        document.querySelectorAll('.platform-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                const logo = card.querySelector('.platform-logo');
+                logo.style.filter = 'drop-shadow(0 0 10px var(--primary))';
+                
+                // Create ripple effect
+                const ripple = document.createElement('div');
+                ripple.className = 'ripple-effect';
+                ripple.style.cssText = `
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: radial-gradient(circle at center, var(--primary) 0%, transparent 70%);
+                    opacity: 0;
+                    transition: opacity 0.3s;
+                    pointer-events: none;
+                `;
+                card.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.style.opacity = '0.2';
+                }, 0);
+            });
+
+            card.addEventListener('mouseleave', () => {
+                const logo = card.querySelector('.platform-logo');
+                logo.style.filter = 'drop-shadow(0 0 5px rgba(255,107,53,0.5))';
+                
+                const ripple = card.querySelector('.ripple-effect');
+                if (ripple) {
+                    ripple.style.opacity = '0';
+                    setTimeout(() => ripple.remove(), 300);
+                }
+            });
+        });
+
+        // Profile image effects
+        const profileImg = document.querySelector('.profile-img-container');
+        profileImg.addEventListener('mouseenter', () => {
+            const glow = profileImg.querySelector('.profile-img-glow');
+            glow.style.opacity = '0.5';
+        });
+
+        profileImg.addEventListener('mouseleave', () => {
+            const glow = profileImg.querySelector('.profile-img-glow');
+            glow.style.opacity = '0';
+        });
+
+        // Social links hover effect
+        document.querySelectorAll('.social-link').forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                const icon = link.querySelector('i');
+                icon.style.transform = 'scale(1.2) rotate(360deg)';
+                icon.style.transition = 'transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+            });
+
+            link.addEventListener('mouseleave', () => {
+                const icon = link.querySelector('i');
+                icon.style.transform = 'scale(1) rotate(0deg)';
+            });
+        });
+
+        // Animate sections on load
+        window.addEventListener('load', () => {
+            const profileSection = document.querySelector('.profile-section');
+            const linksSection = document.querySelector('.links-section');
+            
+            profileSection.style.opacity = '0';
+            linksSection.style.opacity = '0';
+            profileSection.style.transform = 'translateX(-50px)';
+            linksSection.style.transform = 'translateX(50px)';
+
+            setTimeout(() => {
+                profileSection.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                linksSection.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                profileSection.style.opacity = '1';
+                linksSection.style.opacity = '1';
+                profileSection.style.transform = 'translateX(0)';
+                linksSection.style.transform = 'translateX(0)';
+            }, 100);
+        });
+
+        // Background grid parallax effect
+        const grid = document.querySelector('.background-grid');
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            grid.style.transform = `
+                translateX(${x * 20}px) 
+                translateY(${y * 20}px) 
+                rotateX(${y * 10}deg) 
+                rotateY(${-x * 10}deg)
+            `;
+        });
+
+        // Add floating animation to platform cards
+        document.querySelectorAll('.platform-card').forEach((card, index) => {
+            card.style.animation = `floating ${2 + index * 0.2}s ease-in-out infinite alternate`;
+        });
+
+        // Create floating animation keyframes dynamically
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes floating {
+                0% { transform: translateY(0px); }
+                100% { transform: translateY(-10px); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Add particle effects
+        class Particle {
+            constructor(parent) {
+                this.parent = parent;
+                this.element = document.createElement('div');
+                this.element.className = 'particle';
+                this.reset();
+                parent.appendChild(this.element);
+            }
+
+            reset() {
+                const size = Math.random() * 4 + 2;
+                this.element.style.cssText = `
+                    position: absolute;
+                    width: ${size}px;
+                    height: ${size}px;
+                    background: var(--primary);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    opacity: 0;
+                `;
+                this.x = Math.random() * this.parent.offsetWidth;
+                this.y = Math.random() * this.parent.offsetHeight;
+                this.vx = (Math.random() - 0.5) * 2;
+                this.vy = (Math.random() - 0.5) * 2;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x < 0 || this.x > this.parent.offsetWidth ||
+                    this.y < 0 || this.y > this.parent.offsetHeight) {
+                    this.reset();
+                }
+
+                this.element.style.transform = `translate(${this.x}px, ${this.y}px)`;
+                this.element.style.opacity = Math.random() * 0.5;
+            }
+        }
+
+        // Initialize particles
+        const container = document.querySelector('.container');
+        const particles = Array.from({ length: 20 }, () => new Particle(container));
+
+        // Animate particles
+        function animateParticles() {
+            particles.forEach(particle => particle.update());
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
+    </script>
+</body>
+</html>
